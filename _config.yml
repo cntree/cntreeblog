@@ -70,5 +70,5 @@ theme: next
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/cntree/cntree.github.com.git
+  repo: ssh://git@github.com/cntree/cntree.github.com.git
   branch: master
