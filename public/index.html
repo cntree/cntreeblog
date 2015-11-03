@@ -366,6 +366,68 @@
           
           
             
+              <a class="post-title-link" href="/2015/08/03/hexo-deploy-problem/" itemprop="url">
+                hexo deploy 部署错误的解决方案
+              </a>
+            
+          
+        </h1>
+      
+
+      <div class="post-meta">
+        <span class="post-time">
+          发表于
+          <time itemprop="dateCreated" datetime="2015-08-03T17:37:53+08:00" content="2015-08-03">
+            2015-08-03
+          </time>
+        </span>
+
+        
+
+        
+          
+        
+      </div>
+    </header>
+
+    <div class="post-body">
+
+      
+      
+
+      
+        
+          <span itemprop="articleBody"><p>#1.ssh方式解决<br>步骤一：在本地生成git ssh-key 然后配置到你自己的github帐号中<br>步骤二：修改hexo项目中_config.yml文件中的deploy-repo项<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: ssh://git@github.com/yourname/yourname.github.com.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure></p>
+</span>
+        
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      
+      
+        <h1 class="post-title" itemprop="name headline">
+          
+          
+            
               <a class="post-title-link" href="/2015/08/03/robotframework/" itemprop="url">
                 robotframework自动化测试（一）
               </a>
@@ -450,7 +512,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">4</span>
+              <span class="site-state-item-count">5</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
