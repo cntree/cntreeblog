@@ -1,5 +1,4 @@
-title: robotframework自动化测试框架学习（一）
-date: 2015-11-03 16:26:02
-tags: robotframework自动化测试框架
+title: robotframework自动化测试（一）
+date: 2015-8-03 16:56:26
+tags: 自动化测试
 ---
-第一讲
